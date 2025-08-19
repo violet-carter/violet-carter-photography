@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* SEO Optimizations */
   
   // Enable static exports for better performance
-  output: 'standalone',
+  // output: 'standalone', // Commented out to fix build issues
   
   // Image optimization
   images: {
@@ -83,9 +83,9 @@ const nextConfig: NextConfig = {
   },
   
   // Enable experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-  },
+  // experimental: {
+  //   optimizeCss: true,
+  // },
 };
 
 export default nextConfig;
