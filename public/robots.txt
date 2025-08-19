@@ -1,0 +1,44 @@
+# Robots.txt for Violet Carter Photography
+# https://violetcarterphotography.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+Allow: /about
+Allow: /portfolio
+Allow: /contact
+Allow: /blog
+Allow: /pricing
+
+# Disallow admin areas and private files
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+Disallow: *.json$
+
+# Allow crawling of images for Google Images
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /photos/
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.png
+Allow: *.webp
+
+# Sitemap location
+Sitemap: https://violetcarterphotography.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

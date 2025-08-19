@@ -1,4 +1,16 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Violet Carter | New York Documentary Wedding Photographer",
+  description: "Meet Violet Carter, award-winning documentary wedding photographer in New York. Specializing in film-inspired, authentic wedding photography in NYC, Brooklyn, Manhattan, Long Island & Hamptons.",
+  keywords: "about violet carter, new york wedding photographer, documentary wedding photographer, film wedding photographer, nyc photographer bio, wedding photographer story",
+  openGraph: {
+    title: "About Violet Carter | New York Documentary Wedding Photographer",
+    description: "Meet the photographer behind the lens - Violet Carter's story and approach to documentary wedding photography in New York",
+    images: ["/violet-carter-about.jpg"],
+  },
+};
 
 export default function About() {
   return (

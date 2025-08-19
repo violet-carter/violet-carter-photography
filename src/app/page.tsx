@@ -1,4 +1,16 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "New York Wedding Photographer | Documentary & Film Style | Violet Carter Photography",
+  description: "Award-winning New York wedding photographer Violet Carter specializes in documentary, film-inspired photography. Serving NYC, Brooklyn, Manhattan, Long Island, Hamptons & destination weddings with timeless, authentic approach.",
+  keywords: "new york wedding photographer, nyc wedding photographer, documentary wedding photographer, film wedding photographer, brooklyn wedding photographer, manhattan wedding photographer, best new york city photographer",
+  openGraph: {
+    title: "New York Wedding Photographer | Violet Carter Photography",
+    description: "Documentary wedding photographer capturing authentic, timeless moments in New York City and beyond",
+    images: ["/og-home.jpg"],
+  },
+};
 
 export default function Home() {
   return (
@@ -33,12 +45,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-slate-800 dark:text-white mb-6">
-              Capturing Life&apos;s
-              <span className="block text-amber-600 dark:text-amber-400">Beautiful Moments</span>
+              <span className="block">Timeless</span>
+              <span className="block">Personal</span>
+              <span className="block text-amber-600 dark:text-amber-400">Intentional</span>
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-slate-700 dark:text-slate-300 mb-4">
+              New York Wedding Photographer
+            </h2>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto">
-              Professional photographer specializing in portraits, landscapes, and documentary photography. 
-              Every image tells a story, every moment is precious.
+              Documentary wedding photographer specializing in film-inspired photography. 
+              Capturing authentic moments that are felt for generations, not just seen. 
+              Serving NYC, Brooklyn, Manhattan, Long Island, Hamptons & destination weddings.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
@@ -93,13 +110,15 @@ export default function Home() {
                 About Me
               </h2>
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
-                With over a decade of experience behind the lens, I&apos;ve developed a passion for capturing 
-                authentic moments that tell compelling stories. My work spans from intimate portraits to 
-                breathtaking landscapes, always with an eye for the extraordinary in the ordinary.
+                I believe wedding photography is about more than beautiful images... it&apos;s about connection, 
+                trust, and preserving how your day truly felt. With a documentary, film-inspired style and 
+                a calm, intentional approach, my goal is to allow couples to feel like their authentic selves 
+                so their love can unfold naturally.
               </p>
               <p className="text-slate-600 dark:text-slate-300 mb-8">
-                Based in the heart of the city, I work with clients worldwide to create images that 
-                not only document moments but evoke emotions and memories that last a lifetime.
+                As a New York wedding photographer, I am the vendor you spend the majority of your wedding day with, 
+                and I do not take that lightly. I want to be your guide, your friend, and the best possible 
+                photographer I can be for you in NYC, Long Island, the Hamptons, and destination weddings worldwide.
               </p>
               <Link 
                 href="/about"
