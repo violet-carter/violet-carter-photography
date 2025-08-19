@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -36,7 +35,7 @@ export default function About() {
             About Me
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-8">
-            Capturing life's beautiful moments, one frame at a time
+            Capturing life&apos;s beautiful moments, one frame at a time
           </p>
         </div>
       </section>
@@ -67,12 +66,12 @@ export default function About() {
                   My Story
                 </h2>
                 <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-                  Photography found me at a young age, when I first held my grandfather's vintage camera. 
+                  Photography found me at a young age, when I first held my grandfather&apos;s vintage camera. 
                   What started as a curiosity quickly became a passion, and that passion has guided my 
                   journey through life ever since.
                 </p>
                 <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mt-4">
-                  With over a decade of professional experience, I've had the privilege of documenting 
+                  With over a decade of professional experience, I&apos;ve had the privilege of documenting 
                   countless moments - from intimate family portraits to grand celebrations, from urban 
                   landscapes to remote wilderness. Each experience has shaped my perspective and refined 
                   my craft.
@@ -89,7 +88,7 @@ export default function About() {
                   creating images that not only document but also evoke emotion and tell stories.
                 </p>
                 <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mt-4">
-                  Whether I'm capturing the quiet intimacy of a portrait session or the dynamic energy 
+                  Whether I&apos;m capturing the quiet intimacy of a portrait session or the dynamic energy 
                   of a wedding celebration, my goal is always the same: to create images that will be 
                   cherished for generations to come.
                 </p>
@@ -133,7 +132,7 @@ export default function About() {
                 Wedding Photography
               </h3>
               <p className="text-slate-600 dark:text-slate-300">
-                Documenting one of life's most precious moments with a blend of photojournalistic 
+                Documenting one of life&apos;s most precious moments with a blend of photojournalistic 
                 storytelling and artistic composition.
               </p>
             </div>
@@ -148,7 +147,7 @@ export default function About() {
                 Landscape Photography
               </h3>
               <p className="text-slate-600 dark:text-slate-300">
-                Exploring the world's natural beauty and capturing breathtaking vistas that inspire 
+                Exploring the world&apos;s natural beauty and capturing breathtaking vistas that inspire 
                 wonder and appreciation for our planet.
               </p>
             </div>
@@ -170,7 +169,7 @@ export default function About() {
                   Education & Training
                 </h3>
                 <p className="text-slate-600 dark:text-slate-300">
-                  Bachelor's in Fine Arts, Photography<br />
+                  Bachelor&apos;s in Fine Arts, Photography<br />
                   Advanced workshops with renowned photographers<br />
                   Continuous learning through masterclasses and conferences
                 </p>
@@ -191,7 +190,7 @@ export default function About() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold text-slate-800 dark:text-white mb-2">
-                  When I'm Not Behind the Lens
+                  When I&apos;m Not Behind the Lens
                 </h3>
                 <p className="text-slate-600 dark:text-slate-300">
                   I love hiking in the mountains, reading classic literature, 
@@ -206,7 +205,7 @@ export default function About() {
                 </h3>
                 <p className="text-slate-600 dark:text-slate-300">
                   Every client receives my full attention, creativity, and dedication. 
-                  I'm committed to capturing your moments with the same care and 
+                  I&apos;m committed to capturing your moments with the same care and 
                   passion I would want for my own precious memories.
                 </p>
               </div>
@@ -222,7 +221,7 @@ export default function About() {
             Ready to Create Something Beautiful Together?
           </h2>
           <p className="text-xl text-amber-100 mb-8">
-            Let's discuss your vision and how I can help bring it to life through photography.
+            Let&apos;s discuss your vision and how I can help bring it to life through photography.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
@@ -248,7 +247,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-bold mb-4">Violet Carter</h3>
               <p className="text-slate-300">
-                Professional photographer capturing life's beautiful moments.
+                Professional photographer capturing life&apos;s beautiful moments.
               </p>
             </div>
             <div>

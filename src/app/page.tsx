@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -34,7 +33,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-bold text-slate-800 dark:text-white mb-6">
-              Capturing Life's
+              Capturing Life&apos;s
               <span className="block text-amber-600 dark:text-amber-400">Beautiful Moments</span>
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto">
@@ -94,7 +93,7 @@ export default function Home() {
                 About Me
               </h2>
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-6">
-                With over a decade of experience behind the lens, I've developed a passion for capturing 
+                With over a decade of experience behind the lens, I&apos;ve developed a passion for capturing 
                 authentic moments that tell compelling stories. My work spans from intimate portraits to 
                 breathtaking landscapes, always with an eye for the extraordinary in the ordinary.
               </p>
@@ -130,7 +129,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-bold mb-4">Violet Carter</h3>
               <p className="text-slate-300">
-                Professional photographer capturing life's beautiful moments.
+                Professional photographer capturing life&apos;s beautiful moments.
               </p>
             </div>
             <div>
