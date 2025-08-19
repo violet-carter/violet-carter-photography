@@ -1,0 +1,12 @@
+Contact: mailto:hello@violetcarterphotography.com
+Contact: https://about.violetcarterphotography.com/contact
+Expires: 2025-12-31T23:59:59.000Z
+Encryption: https://about.violetcarterphotography.com/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://about.violetcarterphotography.com/.well-known/security.txt
+Policy: https://about.violetcarterphotography.com/security-policy
+Acknowledgments: https://about.violetcarterphotography.com/thanks
+
+# Violet Carter Photography Security Contact
+# Professional wedding photography services in New York
+# Report security issues responsibly

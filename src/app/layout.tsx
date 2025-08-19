@@ -207,6 +207,34 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Manifest for PWA */}
+        <link rel="manifest" href="/manifest.json" />
+        
+        {/* Apple Touch Icons */}
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Violet Carter Photography" />
+        
+        {/* Microsoft Tiles */}
+        <meta name="msapplication-TileColor" content="#d97706" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        
+        {/* Theme Colors */}
+        <meta name="theme-color" content="#d97706" />
+        <meta name="color-scheme" content="light dark" />
+        
+        {/* Preconnect to external domains */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
+        {/* Humans.txt */}
+        <link rel="author" href="/humans.txt" />
+        
+        {/* RSS Feed */}
+        <link rel="alternate" type="application/rss+xml" title="Violet Carter Photography Blog" href="/feed.xml" />
+        
+        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

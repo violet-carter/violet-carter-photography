@@ -1,0 +1,44 @@
+# The humans responsible for this website
+
+/* TEAM */
+Photographer & Creative Director: Violet Carter
+Contact: hello [at] violetcarterphotography.com
+Location: New York, NY
+Instagram: @violetcarterphotography
+
+Developer: AI Assistant
+Location: Digital Realm
+Last update: 2024/12/30
+
+/* SITE */
+Last update: 2024/12/30
+Language: English
+Doctype: HTML5
+IDE: Cursor, VS Code
+Technology: Next.js 15, TypeScript, Tailwind CSS
+Hosting: Vercel
+Domain: about.violetcarterphotography.com
+
+/* PHOTOGRAPHY */
+Style: Documentary, Film-inspired
+Specialties: Wedding Photography, Engagement Sessions
+Service Areas: New York City, Brooklyn, Manhattan, Long Island, Hamptons
+Equipment: Canon, Film cameras
+Approach: Timeless, Personal, Intentional
+
+                              .-""""""-.
+                            .'          '.
+                           /   O      O   \
+                          :                :
+                          |                |
+                          :       __       :
+                           \  .-"`  `"-.  /
+                            '. '------' .'
+                              '-.......-'
+
+/* THANKS */
+To all the couples who trust me with their most precious moments.
+To the amazing wedding vendors who make magic happen.
+To the city of New York for providing endless inspiration.
+
+                    * Made with love in NYC *
