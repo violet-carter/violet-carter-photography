@@ -20,7 +20,9 @@ export default function NewYorkWeddingPhotographer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-2xl font-bold text-slate-800 dark:text-white">
-              <Link href="/">Violet Carter</Link>
+              <a href="https://violetcarterphotography.com" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors">
+                Violet Carter
+              </a>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
@@ -29,12 +31,12 @@ export default function NewYorkWeddingPhotographer() {
               <Link href="/about" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
                 About
               </Link>
-              <Link href="/portfolio" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              <a href="https://violetcarterphotography.com/portfolio" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
                 Portfolio
-              </Link>
-              <Link href="/contact" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              </a>
+              <a href="https://violetcarterphotography.com/contact" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
                 Contact
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -175,18 +177,18 @@ export default function NewYorkWeddingPhotographer() {
             authenticity and artistry it deserves.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/portfolio"
+            <a 
+              href="https://violetcarterphotography.com/portfolio"
               className="bg-white text-amber-600 hover:bg-amber-50 px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               View Portfolio
-            </Link>
-            <Link 
-              href="/contact"
+            </a>
+            <a 
+              href="https://violetcarterphotography.com/contact"
               className="border-2 border-white text-white hover:bg-white hover:text-amber-600 px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               Get in Touch
-            </Link>
+            </a>
           </div>
         </div>
       </section>

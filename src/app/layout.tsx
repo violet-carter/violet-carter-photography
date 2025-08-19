@@ -104,7 +104,7 @@ export default function RootLayout({
         "@id": "https://violetcarterphotography.com/#business",
         "name": "Violet Carter Photography",
         "description": "Professional wedding photographer in New York specializing in documentary, film-inspired photography",
-        "url": "https://about.violetcarterphotography.com",
+        "url": "https://violetcarterphotography.com",
         "telephone": "+1-555-0123", // Replace with actual phone
         "email": "hello@violetcarterphotography.com", // Replace with actual email
         "address": {
@@ -189,7 +189,7 @@ export default function RootLayout({
       {
         "@type": "WebSite",
         "@id": "https://violetcarterphotography.com/#website",
-        "url": "https://about.violetcarterphotography.com",
+        "url": "https://violetcarterphotography.com",
         "name": "Violet Carter Photography",
         "description": "New York wedding photographer specializing in documentary, film-inspired photography",
         "publisher": {

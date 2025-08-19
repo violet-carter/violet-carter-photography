@@ -59,7 +59,9 @@ export default function Blog() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-2xl font-bold text-slate-800 dark:text-white">
-              <Link href="/">Violet Carter</Link>
+              <a href="https://violetcarterphotography.com" className="hover:text-amber-600 dark:hover:text-amber-400 transition-colors">
+                Violet Carter
+              </a>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
@@ -68,15 +70,15 @@ export default function Blog() {
               <Link href="/about" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
                 About
               </Link>
-              <Link href="/portfolio" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              <a href="https://violetcarterphotography.com/portfolio" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
                 Portfolio
-              </Link>
+              </a>
               <Link href="/blog" className="text-amber-600 dark:text-amber-400 font-semibold">
                 Blog
               </Link>
-              <Link href="/contact" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
+              <a href="https://violetcarterphotography.com/contact" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
                 Contact
-              </Link>
+              </a>
             </div>
           </div>
         </div>
