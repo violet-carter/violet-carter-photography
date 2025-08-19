@@ -44,14 +44,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://violetcarterphotography.com"),
+  metadataBase: new URL("https://about.violetcarterphotography.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Violet Carter Photography | New York Wedding Photographer",
     description: "Documentary wedding photographer in New York capturing authentic, timeless moments with a film-inspired approach. Serving NYC, Long Island, Hamptons & destination weddings.",
-    url: "https://violetcarterphotography.com",
+    url: "https://about.violetcarterphotography.com",
     siteName: "Violet Carter Photography",
     images: [
       {
@@ -104,7 +104,7 @@ export default function RootLayout({
         "@id": "https://violetcarterphotography.com/#business",
         "name": "Violet Carter Photography",
         "description": "Professional wedding photographer in New York specializing in documentary, film-inspired photography",
-        "url": "https://violetcarterphotography.com",
+        "url": "https://about.violetcarterphotography.com",
         "telephone": "+1-555-0123", // Replace with actual phone
         "email": "hello@violetcarterphotography.com", // Replace with actual email
         "address": {
@@ -189,7 +189,7 @@ export default function RootLayout({
       {
         "@type": "WebSite",
         "@id": "https://violetcarterphotography.com/#website",
-        "url": "https://violetcarterphotography.com",
+        "url": "https://about.violetcarterphotography.com",
         "name": "Violet Carter Photography",
         "description": "New York wedding photographer specializing in documentary, film-inspired photography",
         "publisher": {

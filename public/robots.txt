@@ -28,7 +28,7 @@ Allow: *.png
 Allow: *.webp
 
 # Sitemap location
-Sitemap: https://violetcarterphotography.com/sitemap.xml
+Sitemap: https://about.violetcarterphotography.com/sitemap.xml
 
 # Crawl delay for respectful crawling
 Crawl-delay: 1
