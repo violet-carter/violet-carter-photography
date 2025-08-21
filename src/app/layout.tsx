@@ -208,7 +208,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Analytics />
         {/* Manifest for PWA */}
         <link rel="manifest" href="/manifest.json" />
         
@@ -246,6 +245,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
